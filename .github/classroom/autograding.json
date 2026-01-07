@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Triangle Pattern Check",
+      "setup": "javac src/Triangle.java",
+      "run": "java -cp src Triangle",
+      "input": "",
+      "output": "*\n* * *\n* * * * *",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
