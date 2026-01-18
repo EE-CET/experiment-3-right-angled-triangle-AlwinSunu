@@ -4,8 +4,8 @@ public class Triangle {
         int base=5;
         int height=3;
         for(int i=0;i<height;i++){
-            for(int i=1;i<base;i+2){
-                System.out.println("* ");
+            for(int i=1;i<base;2){
+                System.out.println(i*"* ");
             }
         }
     }
